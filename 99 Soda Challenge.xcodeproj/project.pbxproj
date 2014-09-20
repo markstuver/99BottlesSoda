@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A348D9019CE1422004002B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A348D8F19CE1422004002B5 /* AppDelegate.swift */; };
+		9A348D9219CE1422004002B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A348D9119CE1422004002B5 /* ViewController.swift */; };
+		9A348D9519CE1422004002B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A348D9319CE1422004002B5 /* Main.storyboard */; };
+		9A348D9719CE1422004002B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A348D9619CE1422004002B5 /* Images.xcassets */; };
+		9A348D9A19CE1422004002B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A348D9819CE1422004002B5 /* LaunchScreen.xib */; };
+		9A348DA619CE1422004002B5 /* _9_Soda_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A348DA519CE1422004002B5 /* _9_Soda_ChallengeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A348DA019CE1422004002B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A348D8219CE1422004002B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A348D8919CE1422004002B5;
+			remoteInfo = "99 Soda Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A348D8A19CE1422004002B5 /* 99 Soda Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "99 Soda Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A348D8E19CE1422004002B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A348D8F19CE1422004002B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A348D9119CE1422004002B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A348D9419CE1422004002B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A348D9619CE1422004002B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A348D9919CE1422004002B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9A348D9F19CE1422004002B5 /* 99 Soda ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "99 Soda ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A348DA419CE1422004002B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A348DA519CE1422004002B5 /* _9_Soda_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _9_Soda_ChallengeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A348D8719CE1422004002B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A348D9C19CE1422004002B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A348D8119CE1422004002B5 = {
+			isa = PBXGroup;
+			children = (
+				9A348D8C19CE1422004002B5 /* 99 Soda Challenge */,
+				9A348DA219CE1422004002B5 /* 99 Soda ChallengeTests */,
+				9A348D8B19CE1422004002B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A348D8B19CE1422004002B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A348D8A19CE1422004002B5 /* 99 Soda Challenge.app */,
+				9A348D9F19CE1422004002B5 /* 99 Soda ChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A348D8C19CE1422004002B5 /* 99 Soda Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				9A348D8F19CE1422004002B5 /* AppDelegate.swift */,
+				9A348D9119CE1422004002B5 /* ViewController.swift */,
+				9A348D9319CE1422004002B5 /* Main.storyboard */,
+				9A348D9619CE1422004002B5 /* Images.xcassets */,
+				9A348D9819CE1422004002B5 /* LaunchScreen.xib */,
+				9A348D8D19CE1422004002B5 /* Supporting Files */,
+			);
+			path = "99 Soda Challenge";
+			sourceTree = "<group>";
+		};
+		9A348D8D19CE1422004002B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A348D8E19CE1422004002B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A348DA219CE1422004002B5 /* 99 Soda ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A348DA519CE1422004002B5 /* _9_Soda_ChallengeTests.swift */,
+				9A348DA319CE1422004002B5 /* Supporting Files */,
+			);
+			path = "99 Soda ChallengeTests";
+			sourceTree = "<group>";
+		};
+		9A348DA319CE1422004002B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A348DA419CE1422004002B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A348D8919CE1422004002B5 /* 99 Soda Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A348DA919CE1422004002B5 /* Build configuration list for PBXNativeTarget "99 Soda Challenge" */;
+			buildPhases = (
+				9A348D8619CE1422004002B5 /* Sources */,
+				9A348D8719CE1422004002B5 /* Frameworks */,
+				9A348D8819CE1422004002B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "99 Soda Challenge";
+			productName = "99 Soda Challenge";
+			productReference = 9A348D8A19CE1422004002B5 /* 99 Soda Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A348D9E19CE1422004002B5 /* 99 Soda ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A348DAC19CE1422004002B5 /* Build configuration list for PBXNativeTarget "99 Soda ChallengeTests" */;
+			buildPhases = (
+				9A348D9B19CE1422004002B5 /* Sources */,
+				9A348D9C19CE1422004002B5 /* Frameworks */,
+				9A348D9D19CE1422004002B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A348DA119CE1422004002B5 /* PBXTargetDependency */,
+			);
+			name = "99 Soda ChallengeTests";
+			productName = "99 Soda ChallengeTests";
+			productReference = 9A348D9F19CE1422004002B5 /* 99 Soda ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A348D8219CE1422004002B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Mark Stuver";
+				TargetAttributes = {
+					9A348D8919CE1422004002B5 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					9A348D9E19CE1422004002B5 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 9A348D8919CE1422004002B5;
+					};
+				};
+			};
+			buildConfigurationList = 9A348D8519CE1422004002B5 /* Build configuration list for PBXProject "99 Soda Challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A348D8119CE1422004002B5;
+			productRefGroup = 9A348D8B19CE1422004002B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A348D8919CE1422004002B5 /* 99 Soda Challenge */,
+				9A348D9E19CE1422004002B5 /* 99 Soda ChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A348D8819CE1422004002B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A348D9519CE1422004002B5 /* Main.storyboard in Resources */,
+				9A348D9A19CE1422004002B5 /* LaunchScreen.xib in Resources */,
+				9A348D9719CE1422004002B5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A348D9D19CE1422004002B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A348D8619CE1422004002B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A348D9219CE1422004002B5 /* ViewController.swift in Sources */,
+				9A348D9019CE1422004002B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A348D9B19CE1422004002B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A348DA619CE1422004002B5 /* _9_Soda_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A348DA119CE1422004002B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A348D8919CE1422004002B5 /* 99 Soda Challenge */;
+			targetProxy = 9A348DA019CE1422004002B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A348D9319CE1422004002B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A348D9419CE1422004002B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A348D9819CE1422004002B5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A348D9919CE1422004002B5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A348DA719CE1422004002B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A348DA819CE1422004002B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A348DAA19CE1422004002B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "99 Soda Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A348DAB19CE1422004002B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "99 Soda Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A348DAD19CE1422004002B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "99 Soda ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/99 Soda Challenge.app/99 Soda Challenge";
+			};
+			name = Debug;
+		};
+		9A348DAE19CE1422004002B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "99 Soda ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/99 Soda Challenge.app/99 Soda Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A348D8519CE1422004002B5 /* Build configuration list for PBXProject "99 Soda Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A348DA719CE1422004002B5 /* Debug */,
+				9A348DA819CE1422004002B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A348DA919CE1422004002B5 /* Build configuration list for PBXNativeTarget "99 Soda Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A348DAA19CE1422004002B5 /* Debug */,
+				9A348DAB19CE1422004002B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A348DAC19CE1422004002B5 /* Build configuration list for PBXNativeTarget "99 Soda ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A348DAD19CE1422004002B5 /* Debug */,
+				9A348DAE19CE1422004002B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A348D8219CE1422004002B5 /* Project object */;
+}
